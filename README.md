@@ -38,7 +38,9 @@ The following tools are also required:
 ### install dependencies on debian/ubuntu
 
 sudo apt-get install libucommon-dev libccrtp-dev libxml2-dev libsndfile-dev libmagic-dev libreadline-dev -y
+
 sudo apt-get install qttools5-dev qtdeclarative5-dev libasound-dev -y
+
 sudo apt-get install cmake bison flex -y
 
 ## Build
