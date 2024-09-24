@@ -35,6 +35,12 @@ The following tools are also required:
 * iLBC [iLBC codec library](http://www.ilbcfreeware.org/)
 * [Akonadi](https://community.kde.org/KDE_PIM/Akonadi) (specifically, the `core` library) and [KContacts](https://cgit.kde.org/kcontacts.git)
 
+### install dependencies on debian/ubuntu
+
+sudo apt-get install libucommon-dev libccrtp-dev libxml2-dev libsndfile-dev libmagic-dev libreadline-dev -y
+sudo apt-get install qttools5-dev qtdeclarative5-dev libasound-dev -y
+sudo apt-get install cmake bison flex -y
+
 ## Build
 
 First of all, choose which options you want to have enabled.
